@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="commandmanager"
+version="1.0.0"
+displayName="Command Manager"
+authors="bijliguy"
+description='''
+A mod that manages commands for Minecraft.
+'''
+
+[[dependencies.commandmanager]]
+modId="forge"
+mandatory=true
+versionRange="[49.0.30,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.commandmanager]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,)"
+ordering="NONE"
+side="BOTH"
